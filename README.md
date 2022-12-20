@@ -13,6 +13,19 @@ Chitti can :
  
 ->Opens Google , Youtube , Spotify in browser
 
-->Dictates time
+->Dictates time and date
 
 ->Searches in google for required query
+
+
+Libraries used : 
+
+->pyttx3 to speak
+
+->speechrecognisition to listen and recognise audio
+
+->datetime to get current date and time
+
+->wikipedia to search in wikipedia
+
+->webbrowser to open a browser
