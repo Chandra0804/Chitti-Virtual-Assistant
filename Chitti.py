@@ -46,7 +46,8 @@ def wish():
 if __name__ == "__main__":
     wish()
     while True:
-        query = takeCommand().lower()
+        #query = takeCommand().lower()
+        query = "the date"
 
         if 'wikipedia' in query:
             speak("Searching Wikipedia...")
@@ -57,6 +58,10 @@ if __name__ == "__main__":
             results = wikipedia.summary(query,sentences = 2)
             print(results)
             speak(results)
+
+        elif 'the date' in query:
+            date = datetime.date.today().strftime("%d:%m:%Y")
+            speak("Sir,Todays date is "+date)
             
         elif 'search for' in query:
             speak("Searching in google")
