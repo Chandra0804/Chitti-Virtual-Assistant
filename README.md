@@ -3,7 +3,7 @@ A virtual assistant named Chitti using python
 
 Chitti uses the system microphone to recognise the audio and perofrm the tasks.
 
-Chitti can :
+**Chitti can :**
 
 ->Introduce itself
 
@@ -18,7 +18,7 @@ Chitti can :
 ->Searches in google for required query
 
 
-Libraries used : 
+**Libraries used :**
 
 ->pyttx3 to speak
 
