@@ -20,7 +20,7 @@ Chitti uses the system microphone to recognise the audio and perofrm the tasks.
 
 **Libraries used :**
 
-->pyttx3 to speak
+->pyttsx3 to speak
 
 ->speechrecognisition to listen and recognise audio
 
